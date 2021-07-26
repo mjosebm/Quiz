@@ -1,1 +1,56 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-color: var(--s-light-color);
+}
+
+
+.btn-info {
+  background-color: var(--primary-color) ;
+  border-color: var(--primary-color) ;
+  color: white;
+}
+
+.btn-info:disabled {
+  background-color: var(--p-light-color);
+  border-color: var(--p-light-color);
+  color: white;
+}
+
+.btn-info:hover {
+  background-color: var(--p-dark-color) ;
+  border-color: var(--p-dark-color) ;
+  color: white;
+}
+
+.list-group-item.active {
+  background-color: var(--p-light-color);
+  border-color: var(--p-light-color);
+}
+
+.list-group-item-success{
+  background-color: #ACDAAC;
+}
+
+.list-group-item-danger{
+  background-color: #F1B4BB;
+}
+.material-icons.incorrect {
+  color: #df4759;
+  font-size: 18px;
+}
+
+.material-icons.correct {
+  color: #5cb85c;
+  font-size: 18px;
+}
+
+:root {
+    --primary-color: #006064;
+    --p-light-color: #428e92;
+    --p-dark-color: #00363a;
+
+    --secundary-color: #a7ffeb;
+    --s-light-color: #dbffff;
+    --s-dark-color: #75ccb9;
+
+  }
